@@ -2,4 +2,52 @@ export class Homepage{
     BaseURL(){
         cy.visit('https://pay-pal-pioneers-068.vercel.app/')
     }
+    HeaderURL1(){
+        cy.contains('Red').should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeaderURL2(){
+        cy.get('.landing_page_navbar_children').eq(1).should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeaderURL3(){
+        cy.get('.landing_page_navbar_children').eq(2).should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeaderURL4(){
+        cy.get('.landing_page_navbar_children').eq(3).should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeaderURL5(){
+        cy.get('.landing_page_navbar_children').eq(4).should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeaderURL6(){
+        cy.get('.landing_page_navbar_children').eq(5).should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
+        cy.wait(2000)
+        cy.go('back')
+    }
+    HeadeURLs(){
+        this.HeaderURL1();
+        this.HeaderURL2();
+        this.HeaderURL3();
+        this.HeaderURL4();
+        this.HeaderURL5();
+        this.HeaderURL6();
+    }
+    FooterLink1(){
+        cy.contains('Contact us').should('be.visible').click()
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/contact us')
+    }
 }

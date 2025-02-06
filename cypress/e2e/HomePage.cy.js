@@ -1,8 +1,14 @@
-import { Homepage } from "./Page Object Model/Homepage";
+import { Homepage } from "./Page Object Model/HomePage";
 
-var homepage = new Homepage;
+var homepage = new Homepage
 describe('Home Page functionality check', () => {
-    it('Validate the navigation on home page', () => {
+    beforeEach(() => {
         homepage.BaseURL();
+    });
+    it('Validate the header navigation on homepage', () => {
+        homepage.HeadeURLs();
+    });
+    it('Validate the footer naviagtion on the homepage', () => {
+        homepage.FooterLink1();
     });
 });
