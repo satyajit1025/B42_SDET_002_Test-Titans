@@ -64,7 +64,8 @@ AUT URL: https://pay-pal-pioneers-068.vercel.app/
 - End-to-End Testing
 
 </details>
-1. Manual Testing 
+
+## Manual Testing 
 Comprehensive manual testing was conducted to validate the application's functionality.
 Key activities include:
 -Developing detailed test scenarios and cases.
@@ -74,7 +75,7 @@ Documenting test cases with:
 -Steps to Execute
 -Expected Results
 
-2. Automation Testing
+## Automation Testing
 A robust automation framework was designed and implemented using modern tools and techniques.
 The framework includes:
 -JavaScript: Programming language for test scripts.
