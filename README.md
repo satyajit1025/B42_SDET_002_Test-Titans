@@ -67,16 +67,16 @@ AUT URL: https://pay-pal-pioneers-068.vercel.app/
 
 ## Manual Testing 
 Comprehensive manual testing was conducted to validate the application's functionality.
-Key activities include:
+1. Key activities include:
 - Developing detailed test scenarios and cases.
-Documenting test cases with:
+2. Documenting test cases with:
 - Prerequisites
 - Test Data
 - Steps to Execute
 - Expected Results
 
 ## Automation Testing
-A robust automation framework was designed and implemented using modern tools and techniques.
+1. A robust automation framework was designed and implemented using modern tools and techniques.
 The framework includes:
 - JavaScript: Programming language for test scripts.
 - Cypress: For automation.
