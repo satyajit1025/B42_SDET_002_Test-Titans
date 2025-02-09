@@ -20,3 +20,48 @@ To perform Functional and Usability Testing on the Thirsty Wine Web Application,
 <img alt="Edge" src="https://img.shields.io/badge/Edge-5C2D91?logo=microsoft-edge&logoColor=white&style=flat" />
 <img alt="Firefox" src="https://img.shields.io/badge/Firefox-FF9500?logo=firefox-browser&logoColor=white&style=flat" />
 <img alt="Chrome" src="https://img.shields.io/badge/Chrome-4285F4?logo=google-chrome&logoColor=white&style=flat" />
+cypress/e2e
+## Directory Structure
+Cypress/
+├─ e2e/
+├─ Page Object Model/
+
+
+## Application Under Test 
+
+AUT URL: https://pay-pal-pioneers-068.vercel.app/
+
+## Scope 
+<details>
+<summary><strong>Features to be Tested</strong></summary>
+
+- Sign up
+- Login
+- Add to cart
+- Wish list
+- Order
+- Product information
+- Size
+- Logout
+
+</details>
+
+<details>
+<summary><strong>Testing Types</strong></summary>
+
+- Functional Testing
+- Usability Testing
+- Compatibility Testing
+
+</details>
+
+<details>
+<summary><strong>Testing Methodologies</strong></summary>
+
+- Black-box Testing
+- Exploratory Testing
+- Integration Testing
+- End-to-End Testing
+
+</details>
+
