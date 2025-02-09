@@ -8,11 +8,11 @@ export class Formsubmission{
         cy.get('[type="submit"]').should('be.visible').click();
     }
     ValidSignup(name,email,pass){
-        this.SignupData(name,email,pass)
+        this.SignupData(name,email,pass);
         cy.contains('Registration successful').should('be.visible');
     }
     DupicateSignup(name,email,pass){
-        this.SignupData(name,email,pass)
+        this.SignupData(name,email,pass);
         cy.contains('Registration failed').should('be.visible');
     }
     LoginData(id,pass){
@@ -22,15 +22,15 @@ export class Formsubmission{
         cy.get('[type="submit"]').should('be.visible').click();
     }
     ValidLogin(id,pass){
-        this.LoginData(id,pass)
-        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/')
+        this.LoginData(id,pass);
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/');
     }
     InvalidLogin(id,pass){
-        this.LoginData(id,pass)
-        cy.contains('Login failed').should('be.visible')
+        this.LoginData(id,pass);
+        cy.contains('Login failed').should('be.visible');
     }
     Logout(id,pass){
-        this.LoginData(id,pass)
-        cy.contains('Sign out').click({force:true})
+        this.LoginData(id,pass);
+        cy.contains('Sign out').click({force:true});
     }
 }

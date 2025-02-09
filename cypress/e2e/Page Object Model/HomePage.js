@@ -1,12 +1,12 @@
 export class Homepage{
     BaseURL(){
-        cy.visit('https://pay-pal-pioneers-068.vercel.app/')
+        cy.visit('https://pay-pal-pioneers-068.vercel.app/');
     }
     HeaderURL1(){
         cy.contains('Red').should('be.visible').click()
-        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog')
-        cy.wait(2000)
-        cy.go('back')
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/catlog');
+        cy.wait(2000);
+        cy.go('back');
     }
     HeaderURL2(){
         cy.get('.landing_page_navbar_children').eq(1).should('be.visible').click()
@@ -48,6 +48,6 @@ export class Homepage{
     }
     FooterLink1(){
         cy.contains('Contact us').should('be.visible').click()
-        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/contact us')
+        cy.url().should('eq','https://pay-pal-pioneers-068.vercel.app/contact us');
     }
 }

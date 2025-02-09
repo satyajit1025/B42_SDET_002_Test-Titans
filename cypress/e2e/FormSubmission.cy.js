@@ -1,17 +1,18 @@
 import { Formsubmission } from "./Page Object Model/FormSubmission";
-import { Homepage } from "./Page Object Model/HomePage";
+import { Homepage } from "./Page Object Model/Homepage";
+
 
 var homepage = new Homepage
 var form = new Formsubmission
 describe('SigUp Validation', () => {
     beforeEach(() => {
-        homepage.BaseURL()
+        homepage.BaseURL();
     });
     it('Valid Sign Up check', () => {
-        form.ValidSignup("satya","satya5@gmail.com","satya123")
+        form.ValidSignup("satya","satya01@gmail.com","satya123");
     });
     it('dupicate signup check', () => {
-        form.DupicateSignup("satya","satya5@gmail.com","satya123")
+        form.DupicateSignup("satya","satya01@gmail.com","satya123");
     });
 });
 describe('Login Validation', () => {
@@ -19,12 +20,12 @@ describe('Login Validation', () => {
         homepage.BaseURL();
     });
     it('valid login check', () => {
-        form.ValidLogin("satya2@gmail.com","satya123")
+        form.ValidLogin("satya01@gmail.com","satya123");
     });
     it('invalid login check', () => {
-        form.InvalidLogin("satya2@gmail.com","satya1234")
+        form.InvalidLogin("satya@gmail.com","satya1234");
     });
     it('logout', () => {
-        form.Logout("satya2@gmail.com","satya123")
+        form.Logout("satya01@gmail.com","satya123");
     });
 });

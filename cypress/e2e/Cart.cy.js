@@ -1,10 +1,10 @@
 import { CartFunctionality } from "./Page Object Model/Cartfunctionality";
 import { Formsubmission } from "./Page Object Model/FormSubmission";
-import { Homepage } from "./Page Object Model/HomePage";
+import { Homepage } from "./Page Object Model/Homepage";
 
 var cart = new CartFunctionality;
 var homepage = new Homepage;
-var form = new Formsubmission
+var form = new Formsubmission;
 describe('Cart functionality check', () => {
     beforeEach(() => {
         homepage.BaseURL();
@@ -13,10 +13,10 @@ describe('Cart functionality check', () => {
         cart.AddProduct();
     });
     it('Remove Product', () => {
-        cart.AddProduct()
-        cart.RemoveProduct()
+        cart.AddProduct();
+        cart.RemoveProduct();
     });
-    it.only('cart total validation', () => {
+    it('cart total validation', () => {
        cart.CartPrice();
     });
 });
@@ -28,7 +28,7 @@ describe('WishList Validation', () => {
         cart.WishlistWithoutLogin();
     });
     it('Add to wishlist with login', () => {
-        form.ValidLogin("satya2@gmail.com","satya123")
+        form.ValidLogin("satya01@gmail.com","satya123");
         cart.WishlistwithLogin();
     });
 });

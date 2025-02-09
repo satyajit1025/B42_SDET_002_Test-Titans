@@ -1,4 +1,5 @@
-import { Homepage } from "./Page Object Model/HomePage";
+import { Homepage } from "./Page Object Model/Homepage";
+
 
 var homepage = new Homepage
 describe('Home Page functionality check', () => {
