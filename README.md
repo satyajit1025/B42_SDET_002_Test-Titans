@@ -80,6 +80,35 @@ Comprehensive manual testing was conducted to validate the application's functio
 - Steps to Execute
 - Expected Results
 
+### Project Type
+This project focuses on both **manual and automated testing** of the Thirsty Wine website's front end. It follows the **Page Object Model (POM)** for structuring automation tests in **Cypress**, ensuring maintainability and reusability. The testing covers **functionality, usability, and cross-browser/device compatibility**, with **BDD Cucumber** used for clear test specifications.
+
+### Deployed Application
+The deployed application can be accessed at: [Thirsty Wine Website](https://pay-pal-pioneers-068.vercel.app/)
+
+## Test Plan
+The **Test Plan** describes the testing approach, features to be tested, and the timeline. It ensures the website functions correctly, securely, and efficiently. You can find the full **Test Plan document [here](https://docs.google.com/document/d/18QMxeUn1zCOouSUOilEDfRasjg9HMqhUYoxkVI10_LI/edit?usp=sharing)
+
+## Test Scenarios
+The **test scenarios** validate key features such as user registration, login, and password recovery. These scenarios guide the testing process for both **functionality and usability**. You can view the **detailed test scenarios [here](https://docs.google.com/spreadsheets/d/1O0y1NZXzGnPSYk-3MNn5ZZd45GPOKHz9AfkGRY_s7M0/edit?gid=0#gid=0)
+
+## Test Cases
+The **test cases** focus on functional and usability testing for major features like Forgot Password, Login, and Registration. These ensure that the website is user-friendly and works correctly. You can view the **detailed test cases [here](https://docs.google.com/spreadsheets/d/1O0y1NZXzGnPSYk-3MNn5ZZd45GPOKHz9AfkGRY_s7M0/edit?gid=1868983526#gid=1868983526)
+
+## Bug Reports
+During testing, defects were logged with **detailed reproduction steps and severity levels** to efficiently track and resolve issues. You can find the **full bug report [here](https://docs.google.com/spreadsheets/d/1JnW2G5YaEADLHjimwVXvGLMNuIduP6UNy9pGGDJgnaA/edit?usp=sharing)
+
+## Test Summary Report
+The **test summary report** overviews the testing process, including tested features, results, and identified issues. It offers insight into the overall quality of the **Thirsty Wine website**. You can view the **detailed test summary report [here](https://docs.google.com/document/d/1j7LDgQ1QKYEi_PX2k6xgmo-PjJ9geRR7GUQddFbmWWs/edit?usp=sharing)
+
+## Mind Map
+The **mind map** visually represents the testing process, displaying how different features and test scenarios are connected. It helps guide and structure the testing plan effectively. You can view the **detailed mind map [here](https://drive.google.com/file/d/1BtMEr8vF0d0q48BHco6HDwfo1Vt45lmM/view?usp=sharing)
+
+## Video Walkthrough
+A video presentation of the project is available [here](https://www.youtube.com/watch?v=BEvPJLAs3B0)
+
+---
+
 ## Automation Testing
 1. A robust automation framework was designed and implemented using modern tools and techniques.
 The framework includes:
