@@ -1,4 +1,6 @@
 # B42_SDET_002_Test-Titans
+![winebottle-OpP6Lr1L](https://github.com/user-attachments/assets/db2ae536-fcfe-4017-87d9-69fffad228a5)
+
 ## Objective
 
 To perform Functional and Usability Testing on the Thirsty Wine Web Application, ensure compatibility across various browsers and address any performance issues.
