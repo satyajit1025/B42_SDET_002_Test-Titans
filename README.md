@@ -1,6 +1,9 @@
 # B42_SDET_002_Test-Titans
 <img src="https://pay-pal-pioneers-068.vercel.app/assets/winebottle-OpP6Lr1L.png" alt="This is logo" width="150" style="justify-content:center; aligh-items:center;">
 
+### Introduction
+The **Thirsty Wine** website is an e-commerce platform where users can browse, search, purchase, and review various wines. The website also offers features like user registration, login, order management, payment processing, and customer support. This test plan outlines the **manual and automation testing** strategy to ensure that all core functionalities work as expected, are user-friendly and perform efficiently across different devices and browsers.
+
 ## Objective
 
 To perform Functional and Usability Testing on the Thirsty Wine Web Application, ensure compatibility across various browsers and address any performance issues.
