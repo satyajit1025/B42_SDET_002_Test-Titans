@@ -1,5 +1,5 @@
 # B42_SDET_002_Test-Titans
-<img src="https://pay-pal-pioneers-068.vercel.app/assets/winebottle-OpP6Lr1L.png" alt="This is logo" width="100" style="justify-content:center; aligh-items:center;">
+<img src="https://pay-pal-pioneers-068.vercel.app/assets/winebottle-OpP6Lr1L.png" alt="This is logo" width="150" style="justify-content:center; aligh-items:center;">
 
 ## Objective
 
