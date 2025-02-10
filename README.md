@@ -1,5 +1,5 @@
 # B42_SDET_002_Test-Titans
-![winebottle-OpP6Lr1L](https://github.com/user-attachments/assets/db2ae536-fcfe-4017-87d9-69fffad228a5)
+<img src="/assets/winebottle-OpP6Lr1L.png" alt="This is logo">
 
 ## Objective
 
